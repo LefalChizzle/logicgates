@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Main App component
-export function App() {
+function App() {
   const [currentPage, setCurrentPage] = useState('Logic Gates'); // Manage current page
 
   // Navbar with buttons to navigate between pages
